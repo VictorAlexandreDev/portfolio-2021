@@ -93,6 +93,7 @@ ul.menu-mobile li a:hover{
    position: relative;
    top: 0;
    transition: .6s linear;
+   z-index: 999;
 }
 
 /* conteudo central do MAIN*/
