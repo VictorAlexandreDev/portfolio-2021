@@ -1,0 +1,125 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'lato', sans-serif;
+}
+main{
+   background-attachment: fixed;
+   background-image:url('../imagens/bg.jpg');
+   background-size: cover;
+   height: 100vh;
+   background-position: center;
+}
+.header{
+   background: linear-gradient(rgba(8, 0, 81, 0.9),rgba(255, 98, 29,0.6));
+   height: 100vh;
+}
+header{
+   width: 100%;
+   padding: 20px 0;
+   display: flex;
+   justify-content: center;
+}
+.logo p{ 
+   color: #080051;
+   color: #FF621D;
+}
+ul.menu-desktop{
+   list-style-type: none;
+   text-align: center;
+   display: flex;
+
+}
+ul.menu-desktop li{
+   margin: 20px 10px;
+
+}
+ul.menu-desktop li a{
+   color: #FF621D;
+   font-size: 17px;
+   font-weight: bold;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 10px;
+}
+ul.menu-desktop li a:hover{
+   text-decoration: underline;
+}
+/*menu mobile*/
+h3.button{
+   display: none;
+   position: absolute;
+   right: 35px;
+   font-size: 26px;
+   color: #FF621D;
+   padding: 10px 15px;
+   cursor: pointer;
+   z-index: 999;
+}
+ul.menu-mobile{
+   list-style: none;
+   text-align: center;
+}
+ul.menu-mobile li{
+   margin: 20px 0;
+}
+ul.menu-mobile li a{
+   color: #FF621D;
+   font-size: 17px;
+   font-weight: bold;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 10px 50px;
+}
+ul.menu-mobile li a:hover{
+   text-decoration: underline;
+}
+/*classes de animation menu JS*/
+.esconder{
+   position: relative;
+   top: -300px;
+   transition: .6s linear;
+}
+.mostrar{
+   position: relative;
+   top: 40px;
+   transition: .6s linear;
+}
+div.ola{
+   text-align: center;
+}
+.ola h1{
+   font-size: 160px;
+   color: white;
+}
+.ola p{
+   color: white;
+   font-size: 17px;
+}
+.ola h3{
+   color: white;
+   font-size: 50px;
+   margin-top: 20px;
+   cursor: pointer;
+   animation: button .4s linear infinite alternate-reverse;
+}
+@keyframes button{
+   0%{
+      position: relative;
+      top: 0;
+   }
+   100%{
+      position: relative;
+      top: -10px;
+   }
+}
+/*media querys*/
+@media screen and (max-width: 768px){
+   ul.menu-desktop{
+      display: none;
+   }
+   ul.menu-mobile,h3.button{
+      display: block;
+   }
+}

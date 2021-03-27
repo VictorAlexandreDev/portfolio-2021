@@ -6,8 +6,41 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="author" content="Victor Alexandre">
    <title>Victor Alexandre Front-end Developer</title>
+   <!--Meu CSS-->
+   <link rel="stylesheet" href="css/style.css">
+   <!--Font Lato-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+   <!--Font Awesome-->
+   <script src="https://kit.fontawesome.com/a331f15ed6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-   
+   <main>
+      <div class="header">
+         <header>
+            <ul class="menu-desktop">
+               <li><a href="#">Projetos</a></li>
+               <li><a href="#">Sobre</a></li>
+               <li><a href="#">Tecnolias</a></li>
+               <li><a href="#">Contato</a></li>
+            </ul><!--menu-desktop-->
+         </header>
+         <!--menu mobile-->
+         <h3 class="button" onclick="menu()"><i class="fa fa-bars"></i></h3>
+         <ul class="menu-mobile esconder">
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Tecnolias</a></li>
+            <li><a href="#">Contato</a></li>
+         </ul><!--menu-mobile-->
+         <div class="ola">
+            <h1>Olá;</h1>
+            <p>Sou o Victor Alexandre.Front-End Developer</p>
+            <h3><i class="fas fa-arrow-circle-down"></i></h3>
+         </div><!--ola-->
+      </div><!--header-->    
+   </main>
+
+   <script src="js/menu.js"></script>
 </body>
 </html>
