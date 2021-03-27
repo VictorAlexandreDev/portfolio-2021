@@ -50,7 +50,8 @@ ul.menu-desktop li a:hover{
 h3.button{
    display: none;
    position: absolute;
-   right: 35px;
+   right: 30px;
+   top: 20px;
    font-size: 26px;
    color: #FF621D;
    padding: 10px 15px;
@@ -83,7 +84,7 @@ ul.menu-mobile li a:hover{
 }
 .mostrar{
    position: relative;
-   top: 40px;
+   top: 10px;
    transition: .6s linear;
 }
 div.ola{
@@ -102,7 +103,7 @@ div.ola{
    font-size: 50px;
    margin-top: 20px;
    cursor: pointer;
-   animation: button .4s linear infinite alternate-reverse;
+   animation: button .5s linear infinite alternate-reverse;
 }
 @keyframes button{
    0%{
@@ -121,5 +122,15 @@ div.ola{
    }
    ul.menu-mobile,h3.button{
       display: block;
+   }
+}
+@media screen and (max-width: 320px){
+   .ola {
+      position: relative;
+      top: -50px;
+   }
+   .ola h3>i{
+      top: -10px;
+      position: relative;
    }
 }
