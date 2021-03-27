@@ -13,6 +13,8 @@
    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
    <!--Font Awesome-->
    <script src="https://kit.fontawesome.com/a331f15ed6.js" crossorigin="anonymous"></script>
+   <!--Favicon-->
+   <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
 </head>
 <body>
    <main>
@@ -21,19 +23,19 @@
             <ul class="menu-desktop">
                <li><a href="#projetos">Projetos</a></li>
                <li><a href="#sobre">Sobre/Contato</a></li>
-               <li><a href="#">Tecnolias</a></li>
+               <li><a href="#tecnologies">Tecnolias</a></li>
             </ul><!--menu-desktop-->
          </header>
          <!--menu mobile-->
          <h3 class="button" onclick="menu()"><i class="fa fa-bars"></i></h3>
          <ul class="menu-mobile esconder">
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Sobre/Contato</a></li>
-            <li><a href="#">Tecnolias</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobre">Sobre/Contato</a></li>
+            <li><a href="#tecnologies">Tecnolias</a></li>
          </ul><!--menu-mobile-->
          <div class="ola">
             <h1>Olá;</h1>
-            <p>Sou o Victor Alexandre.Front-End Developer</p>
+            <p>Sou o Victor Alexandre - Front-End Developer</p>
             <h3><a href="#projetos"><i class="fas fa-arrow-circle-down"></i></a></h3>
          </div><!--ola-->
       </div><!--header-->    
@@ -102,7 +104,7 @@
          <p>(11) 93481-3090</p>
       </div><!--social-->
    </section><!--sobre-->
-   <section class="tecnologies">
+   <section class="tecnologies" id="tecnologies">
       <div class="title-tec">
          <h2>Tecnologias - Linguagens</h2>
       </div><!--title-tec-->
@@ -118,6 +120,9 @@
          <img src="imagens/git-brands.svg" alt="icone do git">
       </div><!--icones-->
    </section><!--tecnologies-->
+   <footer>
+      &copy;2021- portfolio Front-End Developer - Victor Alexandre - Jundiaí-SP
+   </footer>
 
    <script src="js/menu.js"></script>
 </body>

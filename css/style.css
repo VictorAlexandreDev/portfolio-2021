@@ -15,7 +15,7 @@ main{
    background-position: center;
 }
 .header{
-   background: linear-gradient(rgba(116, 177, 157, 0.9),rgba(132, 117, 230,0.6));
+   background: linear-gradient(#74b19de6,rgba(132, 117, 230,0.6));
    height: 100vh;
 }
 header{
@@ -95,6 +95,7 @@ div.ola{
 }
 .ola p{
    font-size: 17px;
+   letter-spacing: 1px;
 }
 .ola a{
    color: white;
@@ -188,7 +189,7 @@ section.sobre{
 }
 section.tecnologies{
    padding: 50px 4%;
-   background: rgba(132, 117, 230,0.5);
+   
    font-size: 20px;
    text-transform: uppercase;
 }
@@ -207,6 +208,12 @@ section.tecnologies{
    width: 100%;
    max-width: 100px;
    padding: 30px 10px;
+}
+footer{
+   text-align: center;
+   padding: 50px 4%;
+   background: rgba(132, 117, 230,0.5);
+   color: white;
 }
 
 
