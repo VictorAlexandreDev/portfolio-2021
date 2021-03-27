@@ -91,8 +91,9 @@ ul.menu-mobile li a:hover{
 }
 .mostrar{
    position: relative;
-   top: 10px;
+   top: 0px;
    transition: .6s linear;
+   z-index: 999;
 }
 
 /* conteudo central do MAIN*/
