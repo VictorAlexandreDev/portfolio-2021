@@ -91,6 +91,7 @@ ul.menu-mobile li a:hover{
 }
 .mostrar{
    position: relative;
+<<<<<<< HEAD
    top: 0px;
    transition: .6s linear;
    z-index: 999;
